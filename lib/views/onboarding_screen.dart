@@ -13,8 +13,18 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     return Scaffold(
       backgroundColor: const Color(0xFFECEFE8),
       body: Container(
-        child: const Column(
-          children: [],
+        child: Column(
+          children: [
+            Image.asset('assets/images/headphone.PNG'),
+            const Text(
+              'Explore\nThe Best\nProducts',
+              style: TextStyle(
+                fontSize: 30,
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ],
         ),
       ),
     );
